@@ -1,0 +1,63 @@
+/* ================= */
+/* Background Colors */
+/* ================= */
+
+header, header .nav a, header .nav li:first-child a:hover, header .nav li:first-child a.active {background: none}
+.boxer {background: #f2f2f2}
+header .nav a.active {
+	background: -moz-linear-gradient(top, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.5)), color-stop(100%,rgba(255,255,255,0.5)));
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%);
+	background: -ms-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0.5) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffffff', endColorstr='#80ffffff',GradientType=0 );
+}
+.nano > .pane > .slider, .nav#filter > li > a:hover, .nav#filter > li > a.active  {background: transparent}
+footer {background: #f2f2f2}
+.nano > .pane > .slider, .humble-info .humble-info-back, .btntheme {background: #f26522}
+
+
+/* Background Image */
+body {background: url(../img/sample/debut_light.png); line-height: 1.2em}
+.container {background:#f2f2f2 url(../img/sample/bg.jpg) no-repeat}
+.humble-img-1 { background-image: url(../img/sample/ao1.jpg) }
+.humble-img-2 { background-image: url(../img/sample/ao2.jpg) }
+.humble-img-3 { background-image: url(../img/sample/ao3.jpg) }
+.humble-img-4 { background-image: url(../img/sample/ao4.jpg) }
+.humble-img-5 { background-image: url(../img/sample/ao5.jpg) }
+.humble-img-6 { background-image: url(../img/sample/ao6.jpg) }
+
+/* Welcome styling */
+#teaser {width:500px; background: white; padding:20px; color:#777}
+
+/* =========== */
+/* Font Colors */
+/* =========== */
+header, header .nav li a, .carousel-nav li a, section, .btntheme {color:white}
+footer, footer .social a:hover {color:black}
+.nav#filter > li > a:hover, .nav#filter > li > a.active, .themecolor, .carousel-nav a.active, footer a:hover {color: #f26522}
+a, header .nav li a i, a:hover, .carousel-control, .humble-info p a:hover {color:#bbb}
+header .nav a:hover, header .nav a.active, header .nav a.active i {color: black}
+
+section .boxer {color: #555}
+
+/* ============ */
+/* Border Color */
+/* ============ */
+
+section .boxer {border:none; }
+.line {border-top:1px solid #f26522; clear:both; padding-bottom: 40px; margin-top: 40px}
+header .nav a.active, header .nav a:hover {border-bottom: 2px solid #f26522}
+
+/* =============== */
+/* Custom styling */
+/* =============== */
+.wborder img {border:1px solid #fff; box-shadow: 0 1px 5px #555}
+.btntheme {text-decoration: none}
+
+.container {box-shadow: 0 1px 15px;}
+.carousel .item p.tcenter {text-align: center}
+
+blockquote {border: none; font-style: italic}
+blockquote small {color: white; font-style: normal}
